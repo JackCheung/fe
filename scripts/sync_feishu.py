@@ -4,10 +4,10 @@ import requests
 from datetime import datetime
 
 # 飞书API配置
-APP_ID = os.getenv('FEISHU_APP_ID')
-APP_SECRET = os.getenv('FEISHU_APP_SECRET')
-APP_TOKEN = os.getenv('FEISHU_APP_TOKEN')  # 多维表格token
-TABLE_ID = os.getenv('FEISHU_TABLE_ID')   # 表格ID
+APP_ID = os.getenv('cli_a8d26e1915f3900b')
+APP_SECRET = os.getenv('PYa3e3er0VxMZ9XQUFQ3gk4i01ZQE7IW')
+APP_TOKEN = os.getenv('FdOmwRmwXioMqZkr341c6OhZnKf')  # 多维表格token
+TABLE_ID = os.getenv('tbleEcX33ILMY9Mt')   # 表格ID
 
 def get_access_token():
     url = "https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal"
